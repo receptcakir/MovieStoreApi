@@ -16,7 +16,7 @@
 
 this is an API project developed using Net 7, Sql Server, RabbitMQ, Redis and Docker.
 
-Auth:
+## Auth:
 JWT Refresh Token mechanism has been developed with the asp net identity library.
 
 
@@ -28,7 +28,7 @@ Movies:
 - Adding notes and points to a selected movie: The note is taken as text. The score must be an integer between 1-10.
 - Recommend Selected Movie: An e-mail is sent to a given e-mail address.
 
-## Auth:
+Auth:
 - UserRegister: Required information for User Registration is requested and a new user is created.
 - Login: Users registered in the system send their login information to the system. Returns token information.
 - RefreshTokenLogin: With the login endpoint, the refresh token value is returned and with this value, the system is logged in again without requiring a login.
